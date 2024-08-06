@@ -6,5 +6,5 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 public interface ICSharpAttributeNamedArgumentData
 {
     /// <summary>The syntactic data about the C# named attribute argument.</summary>
-    public abstract AttributeArgumentSyntax Argument { get; }
+    public abstract AttributeArgumentSyntax SyntacticArgument { get; }
 }
